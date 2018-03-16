@@ -31,12 +31,12 @@ PRODUCT_PACKAGES += \
     charger
 
 PRODUCT_COPY_FILES += \
-    device/huawei/berkeley/dummykernel:kernel
+    device/huawei/vky/dummykernel:kernel
 
-PRODUCT_NAME := omni_berkeley
-PRODUCT_DEVICE := berkeley
+PRODUCT_NAME := omni_vky
+PRODUCT_DEVICE := vky
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Honor View 10
+PRODUCT_MODEL := P10
 PRODUCT_MANUFACTURER := Huawei
 
 # Kernel inline build
