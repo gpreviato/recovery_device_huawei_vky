@@ -30,7 +30,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x07b88000 -
 
 # phony empty kernel to satisfy build system, but this device does not
 # include a kernel in the recovery image -- flash to recovery_ramdisk
-TARGET_PREBUILT_KERNEL := device/huawei/berkeley/dummykernel
+TARGET_PREBUILT_KERNEL := device/huawei/vky/dummykernel
 # else uncomment below to build from sauce
 # TARGET_KERNEL_SOURCE := kernel/huawei/berkeley
 # TARGET_KERNEL_CONFIG := berkeley_defconfig
