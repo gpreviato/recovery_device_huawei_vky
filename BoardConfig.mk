@@ -65,7 +65,6 @@ TW_INCLUDE_NTFS_3G := true
 # Device crashes if /sbin/modprobe is present so this is needed:
 BOARD_CUSTOM_BOOTIMG_MK := device/huawei/vky/custombootimg.mk
 # MTP will not work until we update it to support ffs
-TW_EXCLUDE_MTP := true
 TW_EXCLUDE_SUPERSU := true
 # TW_INCLUDE_CRYPTO := true
 # TW_INCLUDE_CRYPTO_FBE := true
