@@ -14,3 +14,8 @@
 /vendor		ext4		/dev/block/platform/ff3b0000.ufs/by-name/vendor_a	flags=display="vendor";backup=1;wipeingui;flashimg
 /version	ext4		/dev/block/platform/ff3b0000.ufs/by-name/version_a	flags=display="version";backup=1;flashimg
 /odm		ext4		/dev/block/platform/ff3b0000.ufs/by-name/odm		flags=display="odm";backup=1;flashimg
+/kernel            emmc      /dev/block/platform/ff3b0000.ufs/by-name/kernel            flags=display="Kernel";backup=1
+/ramdisk           emmc      /dev/block/platform/ff3b0000.ufs/by-name/ramdisk           flags=display="Boot Ramdisk";backup=1
+/recovery_ramdisk  emmc      /dev/block/platform/ff3b0000.ufs//by-name/recovery_ramdisk  flags=display="Recovery Ramdisk";backup=1
+/system_image      emmc      /dev/block/platform/ff3b0000.ufs//by-name/system
+/vendor_image      emmc      /dev/block/platform/ff3b0000.ufs//by-name/vendor
